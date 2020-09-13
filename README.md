@@ -14,7 +14,7 @@ postgres=# \q
 $ sudo -u postgres psql
 postgres=# ALTER USER template_admin CREATEDB;
 postgres=# \q
-$ python manage.py migrate
+$ python manage.py test
 ```
 
 ## initial setup
