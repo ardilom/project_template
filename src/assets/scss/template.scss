@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alert {
+  padding: 8px 16px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.alert.alert-danger {
+  background-color: #ff0b2d;
+  color: #fff;
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 11;
+}
+.side-sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 91px;
+  z-index: 10;
+}
